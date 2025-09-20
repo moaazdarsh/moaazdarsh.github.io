@@ -13,15 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sequences.md",
-                "mode": "preview",
+                "file": "Real Analysis/Sequences.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
               "title": "Sequences"
             }
+          },
+          {
+            "id": "821e2a11ce83cb41",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -171,10 +182,13 @@
       "github-sync:Sync with Remote": false
     }
   },
-  "active": "15b62c1d2339e1a4",
+  "active": "821e2a11ce83cb41",
   "lastOpenFiles": [
+    "Real Analysis/Sequences.md",
+    "Real Analysis/Series.md",
+    "Real Analysis",
+    "Untitled.canvas",
     "copilot-custom-prompts/Explain like I am 5.md",
-    "Sequences.md",
     "copilot-custom-prompts/Rewrite as tweet thread.md",
     "copilot-custom-prompts/Rewrite as tweet.md",
     "copilot-custom-prompts/Remove URLs.md",
@@ -208,7 +222,6 @@
     "Vibrations&Waves/Vibrations and Waves Notes.ipynb",
     "Vibrations&Waves/Vibrations & Waves.md",
     "Vibrations&Waves/Images",
-    "Vibrations&Waves/Code",
     "Vibrations&Waves Notes/Code/Graphs/Wave.png",
     "Vibrations&Waves Notes/Vibrations & Waves.md",
     "V&WMedia/Vibrations & Waves.md"
