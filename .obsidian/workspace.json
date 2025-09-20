@@ -25,10 +25,14 @@
             "id": "821e2a11ce83cb41",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "Real Analysis/Sequences.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Sequences"
             }
           }
         ],
@@ -184,8 +188,8 @@
   },
   "active": "821e2a11ce83cb41",
   "lastOpenFiles": [
-    "Real Analysis/Sequences.md",
     "Real Analysis/Series.md",
+    "Real Analysis/Sequences.md",
     "Real Analysis",
     "Untitled.canvas",
     "copilot-custom-prompts/Explain like I am 5.md",

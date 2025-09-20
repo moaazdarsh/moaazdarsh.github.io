@@ -38,6 +38,8 @@ If we set $N$ to be any number greater than $\frac{1 + 2 \epsilon}{4 \epsilon}$ 
 
 ---
 ## Partial Sums Sequences
-Given any sequence ${\{x_n\}}^{\infty}_1$ we can construct another one ${\{ s_n\}}_1^\infty$ called a partial sums sequence or a *[[Series]]*.
+Given any sequence ${\{x_n\}}^{\infty}_1$ we can construct another one ${\{ s_n\}}_1^\infty$ such that
 $$s_n = x_1 + x_2 +...+ x_{n-1} + x_n = \sum_{i=1}^n x_i$$
-We can try this with the sequence ${\{2^n\}}_0^\infty$ 
+We can try this with the sequence ${\{2^n\}}_0^\infty$ and the constructed sequence would look like this
+$$1,\; 1.5,\; 1.75,\; 1.875,\; 1.9375,...$$
+These sequences are called partial sums sequences or *[[Series]]*.
