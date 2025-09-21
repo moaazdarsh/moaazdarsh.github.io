@@ -16,7 +16,6 @@ Now let's introduce a more formal definition of sequences:
 
 ---
 ## Limits
-
 You may notice an interesting property in some sequences such as $\{ \frac{n-1}n \}_1^\infty$ which is that they seem to approach a specific value as $n$ gets bigger.
 $$\{ \frac{n-1}n \}_1^\infty \rightarrow 0,\; \frac{1}2,\; \frac{2}3,\; \frac{3}4,\; \frac{4}5,...$$
 For this specific sequence we can explain that clearly.
@@ -28,9 +27,9 @@ As $n$ increases the value $\frac{1}n$ gets smaller, that enables us to make $x_
 
 This definition may seem much more complex than the intuition we had, or even detached from it, but it's in fact the same thing. We can make $x_n$ as close to $L$ as we would like, which means that we can make $|x_n -L|$ smaller than any number $\epsilon$ given that $n$ is large enough, so we choose to make it larger than some number $N$.
 
+---
 Using this definition we can prove that $\lim_{n \rightarrow \infty} \frac{n^2}{2n^2 + 1} = \frac{1}2$ by supposing some number $\epsilon > 0$ and investigating the inequality
 $$| \frac{1}2 - \frac{n^2}{2n^2 + 1}| < \epsilon \implies - \epsilon < \frac{1}2 - \frac{n^2}{2n^2 + 1} < \epsilon$$
-
 $$ \frac{1}2 - \epsilon < \frac{n^2}{2n^2 + 1} < \frac{1}2 + \epsilon $$
 Multiplying by $2n^2 +1$
 $$ - \epsilon \, 2n^2 + \cancel{n^2} + \frac{1}2 - \epsilon < \cancel{n^2} < \epsilon \, 2n^2 + \cancel{n^2} + \frac{1}2 + \epsilon $$
