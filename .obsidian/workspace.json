@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Real Analysis/Sequences.md",
+                "file": "Vibrations&Waves/Vibrations & Waves.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Sequences"
+              "title": "Vibrations & Waves"
             }
           }
         ],
@@ -186,10 +186,10 @@
       "github-sync:Sync with Remote": false
     }
   },
-  "active": "821e2a11ce83cb41",
+  "active": "15b62c1d2339e1a4",
   "lastOpenFiles": [
-    "Real Analysis/Series.md",
     "Real Analysis/Sequences.md",
+    "Real Analysis/Series.md",
     "Real Analysis",
     "Untitled.canvas",
     "copilot-custom-prompts/Explain like I am 5.md",

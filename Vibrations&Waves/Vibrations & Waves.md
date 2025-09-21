@@ -127,7 +127,7 @@ A standing wave between two fixed ends must have a node at both ends, the first 
 A light ray traveling through a medium of refractive index $n_1$ falls perpendicularly on a thin film of thickness $t$ and refractive index $n_2$ which's placed between two mediums of refractive indexes $n_1$ & $n_3$, the ray reflected off the thin film and the ray reflected off medium $3$ will interfere such that $\Delta \phi = k \cdot 2t = \frac{2\pi}\lambda \cdot 2t$.
 
 If $n_2 > n_1$ XOR $n_3 > n_2$, The two rays will also have an additional phase difference of $\pi$, so $\Delta \phi = k \cdot 2t + \pi= \frac{2\pi}\lambda \cdot 2t +\pi$.
-![Thin Film Experiment - Pearson Education](thin-film.png)
+![Thin Film Experiment - Pearson Education](Images/thin-film.png)
 For example, if $n_3 > n_2 > n_1$ in the case of coating then the phase difference $\Delta \phi = \frac{2\pi}\lambda \cdot 2t = (2m + 1)\pi$ in the case of destructive interference.
 
 $t = (2m + 1) \cdot \frac{\lambda}4$, for minimum thickness $m = 0$.
@@ -143,7 +143,7 @@ $$x_{dark} = \frac{m \lambda_{wedge}}2 \cot(\theta) = \frac{m \lambda_0}{2 n_{we
 $$
 ### Double Slit Diffraction
 When light from a monochromatic source goes through two *very small* slits separated by a distance $d$, the two produced waves fall on the screen at a distance $L>>d$ forming the very famous interference pattern.
-![Double Slit Experiment - Pearson Education](Double.png)
+![Double Slit Experiment - Pearson Education](Images/Double.png)
 The phase difference between the two waves $\delta = \frac{2\pi}\lambda d\sin(\theta)$, for bright fringes $\delta = m \cdot 2\pi$, bright fringes start at $m = 1$, excluding the central fringe.
 $$d \sin(\theta) = m \lambda$$
 For dark fringes $\delta = (2m + 1)\pi$, the first dark fringe starts at $m = 0$.
@@ -159,7 +159,7 @@ $$I = I_0 \cos^2(\frac{\delta}2)$$
 Instead of modelling light as a stream of particles, Huygens' Principle states that every wavefront contains an infinite number of spherical wavelet sources, which in turn interfere with each other to form the following wavefront.
 
 When light goes through a slit of width $a \approx \lambda$ to fall on a screen at a distance $L >> a$, an interference pattern with narrow dark fringes is observed.
-![Single Slit Experiment - Pearson Education](Single.png)
+![Single Slit Experiment - Pearson Education](Images/Single.png)
 Using Huygens' principle, we find that all the wavelet sources interfere to produce the pattern, the distance between each two consecutive sources being $\Delta y = \frac{a}n$, and the phase difference $\delta = \frac{2\pi}{\lambda} \Delta y \sin(\theta) =  \frac{2\pi a}{\lambda n} \sin(\theta)$, the resultant of all the wavelets would be:
 $$x_R = x_1 + x_2 + x_3 + ...$$
 $$= A \cos(\omega t + \delta) + A \cos(\omega t + 2 \delta) + A \cos(\omega t + 3 \delta) + ...$$
@@ -175,6 +175,6 @@ Where $m \in \{1,2,3, ...\}$.
 
 When light goes through multiple *very small* slits, each two consecutive slits separated by a distance $d =  \frac{length}{no. of slits}$, and falls on a screen at a distance $L$, an interference pattern with narrow bright fringes is formed, to find the $mth$ bright fringe after the central fringe set the phase difference $\delta = \frac{2\pi}\lambda d\sin(\theta) = m \cdot 2\pi$.
 $$d\sin(\theta) = m\lambda$$
-![Diffraction Grating Experiment - Pearson Education](Grating.png)
+![Diffraction Grating Experiment - Pearson Education](Images/Grating.png)
 
 Since the angle of the fringe $\theta$ depends on the wavelength $\lambda$, every color is spaced differently which means that the full spectrum can be observed at each value of $m$ when a white light source is used, except at $m = 0$ where $\theta = 0$ for all values of $\lambda$ so all colors fall at the center of the screen and a white fringe is observed.
