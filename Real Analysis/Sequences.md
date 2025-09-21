@@ -30,6 +30,7 @@ This definition may seem much more complex than the intuition we had, or even de
 
 Using this definition we can prove that $\lim_{n \rightarrow \infty} \frac{n^2}{2n^2 + 1} = \frac{1}2$ by supposing some number $\epsilon > 0$ and investigating the inequality
 $$| \frac{1}2 - \frac{n^2}{2n^2 + 1}| < \epsilon \implies - \epsilon < \frac{1}2 - \frac{n^2}{2n^2 + 1} < \epsilon$$
+
 $$ \frac{1}2 - \epsilon < \frac{n^2}{2n^2 + 1} < \frac{1}2 + \epsilon $$
 Multiplying by $2n^2 +1$
 $$ - \epsilon \, 2n^2 + \cancel{n^2} + \frac{1}2 - \epsilon < \cancel{n^2} < \epsilon \, 2n^2 + \cancel{n^2} + \frac{1}2 + \epsilon $$
