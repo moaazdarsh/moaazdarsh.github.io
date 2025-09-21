@@ -28,7 +28,9 @@ There are three solutions to this deferential equation, we will only focus on tw
 Where the damping isn't enough to prevent oscillation.
 $$x = A_0 e^{-\gamma t}\cos(\omega_d t + \phi)$$
 Where $\gamma = \frac{b}{2m}$ and $\omega_d = \sqrt{\omega_0^2 - \gamma^2}$ is the damped frequency.
-![[Underdamped.png]]
+
+![](Code/Graphs/Underdamped.png)
+
 We can see that since the amplitude is decreasing exponentially the wave function is enveloped by the amplitude function $A = A_0 e^{-\gamma t}$.
 
 To describe the decrease in the amplitude of oscillation we will construct the **Logarithmic Decrement**. 
@@ -46,7 +48,9 @@ $$m \ddot{x}+ k_s x + b \dot{x} = F_0 \cos( \Omega t)$$
 Solving this differential equation we get $x = A \cos(\Omega t - \phi)$, where $A(\Omega) = \frac{F_0}{m\sqrt{(\omega_0^2 - \Omega^2)^2 + (2\gamma \Omega)^2}}$ and $\phi = \tan^{-1}( \frac{2\gamma \Omega}{\omega_0^2 - \Omega^2})$.
 
 Graphing $A(\Omega)$ we get the following curve which a maximum value for the amplitude depending on the driving frequency.
-![[Forced.png]]
+
+![](Code/Graphs/Forced.png)
+
 The frequency of applied force that will result in the greatest amplitude is $\Omega_A = \sqrt{\omega_0^2 -2\gamma^2}$ and that maximum amplitude is $A = \frac{F_0}{r \sqrt{\omega_0^2 -\gamma^2}}$, if we want the spring to oscillate at maximum velocity however, then $\Omega = \omega_0$, $A = \frac{F_0}{r\omega_0}$, and $v_{max} = \frac{F_0}b$.
 ## Waves:
 Waves transfer energy from one place to another without the transmission of particles, they can be classified based on three criteria, firstly:
@@ -66,13 +70,17 @@ And lastly, **Traveling and Standing Waves**.
 The function of a wave moving in a line is $y = f(kx-\omega t)$, from this we can find the differential equation for wave motion.
 $$\frac{\partial^2 y}{\partial x^2} = \frac{1}{v^2} \frac{\partial^2 y}{\partial t^2}$$
 A case of such wave equation is $y(x,t) = \frac{A}{(x - vt)^2 + 1}$, which describes a pulse moving through a medium such as a rope for example.
-![[Pulse.png]]
+
+![](Code/Graphs/Pulse.png)
+
 We can see from the equation that as time passes (as $t$ increases) the curve will shift to the right, simulating the propagation of the wave. The velocity of a wave is determined by its medium so in the case of a rope the velocity $v = \sqrt{ \frac{T}{\mu} }$, where $T$ is the tension in the wire and $\mu$ is the mass per unit length.
 
 However, we're mainly concerned with sinusoidal waves which behave according to this equation.
 $$y(x,t) = A \cos(kx-\omega t) = A \cos(k(x-vt))$$
 Where $\omega = \frac{2\pi}T$ and $k = \frac{2\pi}\lambda$.
-![[Wave.png]]
+
+![](Code/Graphs/Wave.png)
+
 Similarly to the pulse, as $t$ increases the wave propagates to the right.
 ### Energy and Power
 
@@ -93,8 +101,10 @@ Since sound waves are mechanical, longitudinal, and *spherical* waves; this equa
 ### Beats
 When two waves with slightly different frequencies interfere, the difference between their phases continuously changes making them shift back and forth between constructive and destructive interference, so they produce a wave with periodically variable amplitude called a *Beat*.
 
-Mathematically this can be represented by adding the two waves $D_1 (x,t) = A \cos(\omega_1 t - kx)$ and $D_2 (x,t) = A \cos(\omega_2 t - kx)$![[Beats.png]], resulting in the following equation for beats:
+Mathematically this can be represented by adding the two waves $D_1 (x,t) = A \cos(\omega_1 t - kx)$ and $D_2 (x,t) = A \cos(\omega_2 t - kx)$, resulting in the following equation for beats:
 $$D (x,t) = 2A \cos(\frac{|\omega_1 - \omega_2|}2 t - kx) \cos(\frac{|\omega_1 + \omega_2|}2 t - kx)$$
+
+![](Code/Graphs/Beats.png)
 
 The frequency of the new sound is $\frac{f_1 + f_2}2$, but the frequency of the beat is $|f_1 - f_2|$.
 ### The Doppler Effect
