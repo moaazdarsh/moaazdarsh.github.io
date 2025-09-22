@@ -1,5 +1,5 @@
 {
-  "ignoredLints": "{\"context_hashes\":[18169663114622904374]}",
+  "ignoredLints": "{\"context_hashes\":[18169663114622904374,7326779653289747579]}",
   "useWebWorker": true,
   "lintSettings": {
     "ACoupleMore": null,
@@ -405,7 +405,8 @@
     "WroughtIron": null
   },
   "userDictionary": [
-    "afterwards"
+    "afterwards",
+    "phasor"
   ],
   "dialect": 0,
   "delay": -1,

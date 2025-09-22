@@ -21,7 +21,7 @@ $$x = A \cos(\omega t + \phi)$$
 Where $A$ is the amplitude, $\omega = \sqrt{\frac{k}m}$ is the natural frequency and $\phi$ is the phase at $t = 0$.
 ## Damped Oscillations:
 
-If a spring system oscillates in a viscous fluid it will be affected by a damping force $F_d = -bv$, and then its  equation of motion is going to be as follows.
+If a spring system oscillates in a viscous fluid it will be affected by a damping force $F_d = -bv$, and then its equation of motion is going to be as follows.
 $$m \ddot{x} = -kx - b \dot{x}$$
 There are three solutions to this deferential equation, we will only focus on two.
 ### Under Damping
@@ -108,8 +108,8 @@ $$D (x,t) = 2A \cos(\frac{|\omega_1 - \omega_2|}2 t - kx) \cos(\frac{|\omega_1 +
 
 The frequency of the new sound is $\frac{f_1 + f_2}2$, but the frequency of the beat is $|f_1 - f_2|$.
 ### The Doppler Effect
-If either the source of sound or the receiver is moving towards or away from the other then the perceived frequency is different. In the case of a moving receiver, it's because the relative velocity between him and the wave is changed, In the case of a moving source, it's because the motion changes the produced wave frequency.
-$$f' = f_0 \cdot  \frac{v_0 \pm  v_r}{v_0 \mp v_s}$$
+If either the source of sound or the receiver is moving towards or away from the other, then the perceived frequency is different. In the case of a moving receiver, it's because the relative velocity between him and the wave is changed, In the case of a moving source, it's because the motion changes the produced wave frequency.
+$$f' = f_0 \cdot\frac{v_0 \pm~v_r}{v_0\mp v_s}$$
 Where $v_0$ is the wave speed (sound speed is around $343 \; m/s$).
 
 **Note:** $v_r$ is +ve when the receiver is approaching while $v_s$ is -ve when the source is approaching and vise versa.
@@ -122,13 +122,13 @@ If a pulse travels from a light segment of the rope to a denser one the reflecte
 $$y_1 + y_2 = A \cos(kx-\omega t) + A \cos(kx + \omega t + \pi)$$
 $$= -2A \sin(kx) \sin(\omega t)$$
 A standing wave doesn't propagate, it only oscillates in place, and it assigns the amplitude of oscillation at any point on the rope by the function $2A \sin(kx)$, defining *nodes* as the points with no oscillation, and *anti-nodes* as the points with maximum oscillation.
-$$2A\sin(kx) = 0 \rightarrow kx = \frac{2\pi}\lambda x = m\pi$$
+$$2A\sin(kx) = 0 \rightarrow~kx = \frac{2\pi}\lambda x = m\pi$$
 $\therefore x = m\frac{\lambda}2$ is the $(m+1)th$ node, where m starts from zero.
-$$2A\sin(kx) = 2A \rightarrow  kx = \frac{2\pi}\lambda x = (m + \frac{1}2)\pi$$
+$$2A\sin(kx) = 2A \rightarrow~kx = \frac{2\pi}\lambda x = (m + \frac{1}2)\pi$$
 $\therefore x = (m + \frac{1}2) \frac{\lambda}2$ is the $(m+1)th$ anti-node.
 ### Harmonics
 A standing wave between two fixed ends must have a node at both ends, the first end of the rope is at $x = 0$ where the first node is, the *harmonic* of the standing wave depends on the position of the second end of the rope.
-  
+
 **The Fundamental Harmonic** occurs when the second end of the rope is at the second node and $\lambda = 2L$, where $L$ is the length of the rope, since $v = \sqrt{\frac{T}{\mu}}$ the fundamental frequency $f = \frac{v}{\lambda} = \frac{1}{2L} \sqrt{\frac{T}{\mu}}$, in which case there is only one loop, two nodes, and one anti-node.
 
 **The $\textbf{nth}$ Harmonic** occurs when the second end of the rope is at the $(n+1)th$ node and $\lambda = \frac{2}n L$, since $v = \sqrt{\frac{T}{\mu}}$ the frequency $f = \frac{v}{\lambda} = \frac{n}{2L} \sqrt{\frac{T}{\mu}}$, in which case there are $n$ loops, $(n+1)$ nodes, and $n$ anti-nodes.
@@ -149,8 +149,7 @@ $t = m \cdot \frac{\lambda}2$, for minimum thickness $m = 1$.
 Similarly to the thin film, light rays coming from a medium of refractive index $n_1$ fall perpendicularly on an optical wedge of angle $\theta$ and refractive index $n_2$ surrounded by two mediums of refractive indexes $n_1$ & $n_3$, the two reflected waves will interfere following the same rule as the thin film $\Delta \phi = k \cdot 2t = \frac{2\pi}\lambda \cdot 2t$, forming an interference pattern which depends on the thickness of the wedge at any given point.
 
 Usually $n_2 < n_1, n_3$, to find the horizontal position of the dark fringes set $\Delta \phi = \frac{2\pi}\lambda \cdot 2t +\pi = (2m + 1)\pi$ then substitute $x = t\cot(\theta)$.
-$$x_{dark} = \frac{m \lambda_{wedge}}2 \cot(\theta) = \frac{m \lambda_0}{2 n_{wedge}} \cot(\theta)
-$$
+$$x_{dark} = \frac{m \lambda_{wedge}}2 \cot(\theta) = \frac{m \lambda_0}{2 n_{wedge}} \cot(\theta)$$
 ### Double Slit Diffraction
 When light from a monochromatic source goes through two *very small* slits separated by a distance $d$, the two produced waves fall on the screen at a distance $L>>d$ forming the very famous interference pattern.
 ![Double Slit Experiment - Pearson Education](Images/Double.png)
@@ -170,7 +169,7 @@ Instead of modelling light as a stream of particles, Huygens' Principle states t
 
 When light goes through a slit of width $a \approx \lambda$ to fall on a screen at a distance $L >> a$, an interference pattern with narrow dark fringes is observed.
 ![Single Slit Experiment - Pearson Education](Images/Single.png)
-Using Huygens' principle, we find that all the wavelet sources interfere to produce the pattern, the distance between each two consecutive sources being $\Delta y = \frac{a}n$, and the phase difference $\delta = \frac{2\pi}{\lambda} \Delta y \sin(\theta) =  \frac{2\pi a}{\lambda n} \sin(\theta)$, the resultant of all the wavelets would be:
+Using Huygens' principle, we find that all the wavelet sources interfere to produce the pattern, the distance between each two consecutive sources being $\Delta y = \frac{a}n$, and the phase difference $\delta = \frac{2\pi}{\lambda} \Delta y \sin(\theta) =\frac{2\pi a}{\lambda n} \sin(\theta)$, the resultant of all the wavelets would be:
 $$x_R = x_1 + x_2 + x_3 + ...$$
 $$= A \cos(\omega t + \delta) + A \cos(\omega t + 2 \delta) + A \cos(\omega t + 3 \delta) + ...$$
 
@@ -183,8 +182,7 @@ $$a\sin(\theta) = m \lambda$$
 Where $m \in \{1,2,3, ...\}$.
 ### Diffraction Grating
 
-When light goes through multiple *very small* slits, each two consecutive slits separated by a distance $d =  \frac{length}{no. of slits}$, and falls on a screen at a distance $L$, an interference pattern with narrow bright fringes is formed, to find the $mth$ bright fringe after the central fringe set the phase difference $\delta = \frac{2\pi}\lambda d\sin(\theta) = m \cdot 2\pi$.
-$$d\sin(\theta) = m\lambda$$
+When light goes through multiple *very small* slits, each two consecutive slits separated by a distance $d =\frac{length}{no. of slits}$, and falls on a screen at a distance $L$, an interference pattern with narrow bright fringes is formed, to find the $mth$ bright fringe after the central fringe set the phase difference $\delta = \frac{2\pi}\lambda d\sin(\theta) = m \cdot 2\pi$.$$d\sin(\theta) = m\lambda$$
 ![Diffraction Grating Experiment - Pearson Education](Images/Grating.png)
 
 Since the angle of the fringe $\theta$ depends on the wavelength $\lambda$, every color is spaced differently which means that the full spectrum can be observed at each value of $m$ when a white light source is used, except at $m = 0$ where $\theta = 0$ for all values of $\lambda$ so all colors fall at the center of the screen and a white fringe is observed.

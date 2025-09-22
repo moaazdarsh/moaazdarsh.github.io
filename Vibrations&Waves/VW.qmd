@@ -1,0 +1,65 @@
+---
+title: "Vibrations & Waves"
+format:
+  pdf
+---
+## Circular Motion:
+using polar coordinates is simpler for circular motion
+so the following are some important kinematic definitions in polar coordinates and periodic motion.
+
+**Angular Displacement**   $\bar\theta = \bar\theta_f - \bar\theta_i$, measured in $rad$.
+
+**Angular Velocity**   $\bar\omega = \frac{d\bar\theta}{dt}$, measured in $rad/s$.
+
+**Angular Acceleration**   $\bar\alpha = \frac{d\bar\omega}{dt}$, measured in $rad/s^2$.
+
+**Frequency** $(f) = \frac{no. \: of \: turns}{\Delta t}$
+
+**Periodic time** $(T) = \frac{2\pi}{\omega}= \frac{1}f$
+
+## Forced Occillations:
+a spring system that is affected by an external force $F = F_0 cos(\Omega t)$ and a damping force $F_D = -rv$ will be described by the following equation of motion.
+
+$$
+m\ddot{x}  + k_s x + r\dot{x} = F_0cos(\Omega t)
+$$
+
+solving this differential equation we get
+
+$x = Acos(\Omega t - \phi)$, 
+where $A(\Omega) = \frac{F_0}{\sqrt{(\omega_0^2 - \Omega^2)^2 + (2\alpha \Omega)^2}}$ and $\phi = tan^{-1}( \frac{2\alpha \Omega}{\omega_0^2 - \Omega^2})$.
+
+the frequency of applied force that will result in the greatest amplitude is $\Omega_A = \sqrt{\omega_0^2 -2\alpha^2}$
+and that maximum amplitude is $A = \frac{F_0}{r \sqrt{\omega_0^2 -\alpha^2}}$.
+
+if we want the spring to oscillate at maximum velocity however, then $\Omega = \omega_0$, the amplitude $A = \frac{F_0}{r\omega_0}$, and $v_{max} = \frac{F_0}r$.
+
+## Waves:
+Waves can be classified based on three criteria, firstly:
+
+**Mechanical Waves:** need a medium to propagate.
+
+**Electromagnetic Waves:** doesn't need a medium.
+
+secondly:
+
+**Transverse:** the vibration is perpendicular to wave propagation.
+
+**Longitudinal:** the vibration is parallel to wave propagation.
+
+and lastly, **Travelling and Standing Waves**.
+
+#### Wave equation
+The function of a wave moving in a line is $y = f(kx-\omega t)$, from this we can find the differential equation for wave motion.
+
+$$
+\frac{\partial^2 y}{\partial x^2} = \frac{1}{v^2} \frac{\partial^2 y}{\partial t^2} 
+$$
+
+However, we're only concerned with sinusoidal waves which behave according to this equation.
+
+$$
+y(x,t) = Acos(kx-\omega t) = Acos(x-vt)
+$$
+
+where $\omega = \frac{2\pi}T$ and $k = \frac{2\pi}\lambda$
