@@ -1,2 +1,2 @@
 # My Study Notes
-I'm currently an Engineering undergraduate at Ain Shams University, I'm interested in academia so writing these explanations builds some portfolio for me. I intend to make and share some notes during the courses that I enjoy or the topics that I'm looking into, you can easily deduce that I like mathematics and physics from these notes.
+I'm an Engineering undergraduate at Ain Shams University aspiring for an academic career. I intend to make and share some notes during the courses that I enjoy or the topics that I'm looking into, you can easily deduce that I like mathematics and physics from these notes.
