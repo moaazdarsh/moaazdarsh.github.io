@@ -1,0 +1,86 @@
+\documentclass[a4paper]{article}
+
+\usepackage{amsmath}
+\usepackage{geometry}
+
+\newgeometry{margin=1in}
+
+\newtheorem{theorem}{}
+
+
+\begin{document}
+\section*{Things to Know}
+
+\begin{itemize}
+\item Parseval's theorem has a different statement for CTFS, CTFT, DTFS, and DTFT.\\
+For CTFS, it is
+\begin{equation*}
+    \frac{1}{T} \int_{0}^{T} |x(t)|^2\,dt = \sum_{k=-\infty}^{\infty} |X[k]|^2.
+\end{equation*}
+For CTFT, it is
+\begin{equation*}
+    \int_{-\infty}^{\infty} |x(t)|^2\,dt = \frac{1}{2\pi} \int_{-\infty}^{\infty} |X(j\omega)|^2\,d\omega.
+\end{equation*}
+For DTFS, it is
+\begin{equation*}
+    \frac{1}{N} \sum_{n=0}^{N-1} |x[n]|^2 = \sum_{k=0}^{N-1} |X[k]|^2.
+\end{equation*}
+For DTFT, it is
+\begin{equation*}
+    \sum_{n=-\infty}^{\infty} |x[n]|^2 = \frac{1}{2\pi} \int_{-\pi}^{\pi} |X(e^{j\omega})|^2\,d\omega.
+\end{equation*}
+
+\item Convolving any signal with the step function is equivalent to integration. But to take care of the domain here's a simple rule.
+\vspace{5pt}
+
+\noindent
+For a signal $x(t) = f(t)u(t-a) + g(t)u(t-b) + h(t)u(t-c)$ with $a < b < c$, it's convolution with the step function is
+\begin{equation*}
+    x(t) * u(t) = 
+    \begin{cases}
+        0 &, t < a, \\[5pt]
+        \int_{a}^{t} f(\tau)\,d\tau &,\ t > a, \\[5pt]
+        \int_{a}^{t} f(\tau)\,d\tau + \int_{b}^{t} g(\tau)\,d\tau &,\ t > b. \\[5pt]
+        \int_{a}^{t} f(\tau)\,d\tau + \int_{b}^{t} g(\tau)\,d\tau + \int_{c}^{t} h(\tau)\,d\tau &,\ t > c.
+    \end{cases}
+\end{equation*} \\
+
+\item If the gaussian integral $\int_{-\infty}^{\infty} e^{-at^2} dt = I$, then
+\begin{align*}
+    I^2 &= \int_{-\infty}^{\infty} e^{-at^2} dt \cdot \int_{-\infty}^{\infty} e^{-a\tau^2} d\tau = \int_{-\infty}^{\infty} \int_{-\infty}^{\infty} e^{-a(t^2 + \tau^2)} dt d\tau \\[5pt]
+    &= \int_{0}^{2\pi} \int_{0}^{\infty} e^{-ar^2} r dr d\theta \\[5pt]
+    &= 2\pi \int_{0}^{\infty} e^{-ar^2} r dr \\[5pt]
+    &= 2\pi \cdot \frac{1}{2a} \\
+    &= \frac{\pi}{a}.
+\end{align*}
+
+Therefore, $I = \sqrt{\dfrac{\pi}{a}}$.
+Similarly, if the gaussian integral $$\int_{-\infty}^{\infty} e^{-at^2}u(t) dt = \sqrt{\frac{\pi}{2a}}$$.
+
+\item If the geometric series $\sum_{k=0}^{n} r^k = S$, then
+
+\begin{align*}
+    S &= 1 + r + r^2 + \cdots + r^n \\
+    rS &= r + r^2 + \cdots + r^n + r^{n+1} \\
+    S - rS &= 1 - r^{n+1} \implies S = \frac{1 - r^{n+1}}{1 - r}.
+\end{align*}
+
+For a infinite geometric series $\sum_{k=0}^{\infty} r^k$
+
+\begin{equation*}
+    \sum_{k=0}^{\infty} r^k = \frac{1}{1 - r}.
+\end{equation*}
+
+As for the alternating geometric series $\sum_{k=0}^{n} (-1)^k r^k = S$
+\begin{equation*}
+    S = \frac{1}{1 + r}.
+\end{equation*}
+
+
+\item The convolution $\sum_{k=0}^{n}\alpha^k \beta^{n-k}$ can be calculated as
+\begin{equation*}
+    \sum_{k=0}^{n}\alpha^k \beta^{n-k} = \beta^n \cdot \sum_{k=0}^{n} \left(\frac{\alpha}{\beta}\right)^k = \beta^n \cdot \frac{1 - \left(\frac{\alpha}{\beta}\right)^{n+1}}{1 - \frac{\alpha}{\beta}} = \frac{\beta^{n+1} - \alpha^{n+1}}{\beta - \alpha}.
+\end{equation*}
+
+\end{itemize}
+\end{document}

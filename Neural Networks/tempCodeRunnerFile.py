@@ -1,0 +1,1 @@
+    dZ1 = dA1 * ((W1 * X[:, None] + B1) > 0) # Derivative of ReLU
