@@ -1,3 +1,5 @@
-theme: jekyll-theme-minimal
-title: Moaaz Abo-shaeer's Study Notes
-description: 
+plugins:
+  - jekyll-remote-theme
+remote_theme: cotes2020/jekyll-theme-chirpy
+title: Moaaz's Study Notes
+
